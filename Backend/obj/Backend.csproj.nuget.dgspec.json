@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chalo\\src\\aum.contact\\Backend\\Backend.csproj": {}
+    "c:\\Users\\chalo\\src\\aum.contact\\Backend\\Backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chalo\\src\\aum.contact\\Backend\\Backend.csproj": {
+    "c:\\Users\\chalo\\src\\aum.contact\\Backend\\Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chalo\\src\\aum.contact\\Backend\\Backend.csproj",
+        "projectUniqueName": "c:\\Users\\chalo\\src\\aum.contact\\Backend\\Backend.csproj",
         "projectName": "Backend",
-        "projectPath": "C:\\Users\\chalo\\src\\aum.contact\\Backend\\Backend.csproj",
+        "projectPath": "c:\\Users\\chalo\\src\\aum.contact\\Backend\\Backend.csproj",
         "packagesPath": "C:\\Users\\chalo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chalo\\src\\aum.contact\\Backend\\obj\\",
+        "outputPath": "c:\\Users\\chalo\\src\\aum.contact\\Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chalo\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -41,6 +41,24 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
